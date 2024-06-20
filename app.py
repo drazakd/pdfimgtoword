@@ -9,6 +9,7 @@ import os
 
 # Spécifiez le chemin d'accès à l'exécutable Tesseract
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Modifiez ce chemin selon votre installation
+# note: tesseract un est moteur de reconnaissance optique de caractere (OCR)
 
 
 def pdf_to_images(pdf_path):
